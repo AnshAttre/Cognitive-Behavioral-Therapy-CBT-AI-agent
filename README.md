@@ -51,9 +51,9 @@ This project was primarily developed and tested in a Google Colab environment. T
 
 ### 4.1. Open and Run the Main Notebook
 
-The primary executable code and development walkthrough are contained within the `notebooks/code_report_Ansh_Attre_IIT_Mandi.ipynb` file.
+The primary executable code and development walkthrough are contained within the `source_code_report_Ansh_Attre_IIT_Mandi.ipynb` file.
 
-1.  **Upload to Colab:** Open Google Colab and upload/open the `code_report_Ansh_Attre_IIT_Mandi.ipynb` file from the `notebooks/` directory.
+1.  **Upload to Colab:** Open Google Colab and upload/open the `source_code_report_Ansh_Attre_IIT_Mandi.ipynb` 
 2.  **Select GPU Runtime:** Ensure you are using a GPU runtime for efficient model loading and inference (Runtime -> Change runtime type -> Hardware accelerator: GPU).
 3.  **Run Cells Sequentially:** Execute all cells in the notebook sequentially. This will handle dependency installation, data preparation, model loading, and eventually launch the Gradio UI.
 
