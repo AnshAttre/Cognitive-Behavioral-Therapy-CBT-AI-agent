@@ -2,7 +2,7 @@
 
 
 
-### **Applicant Information:**
+### By
 
 * **Name:** Ansh Attre
 * **University:** Indian Institute Of Technology, Mandi
