@@ -1,8 +1,6 @@
 # A Specialized CBT Therapist AI
 
-## Internship Application Repository
 
----
 
 ### **Applicant Information:**
 
