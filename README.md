@@ -72,7 +72,7 @@ The notebook typically includes steps to prepare the RAG knowledge base.
 
 ### 4.4. Fine-Tune the `microsoft/phi-2` Model (Managed by Notebook)
 
-The `notebooks/code_report_Ansh_Attre_IIT_Mandi.ipynb` file also contains the detailed walkthrough and code for the QLoRA fine-tuning process of the `microsoft/phi-2` model.
+The `source_code_report_Ansh_Attre_IIT_Mandi.ipynb` file also contains the detailed walkthrough and code for the QLoRA fine-tuning process of the `microsoft/phi-2` model.
 
 ## 5. Project Structure
 
