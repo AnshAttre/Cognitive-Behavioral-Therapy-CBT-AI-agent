@@ -86,7 +86,7 @@ The `source_code_report_Ansh_Attre_IIT_Mandi.ipynb` file also contains the detai
 ├── knowledge_base/             # Folder for raw CBT knowledge documents (for RAG)
 ├── model/                      # Directory for the fine-tuned Phi-2 model checkpoints
 ├── notebooks/
-│   └── code_report_Ansh_Attre_IIT_Mandi.ipynb # Detailed development log & primary execution walkthrough
+│   └── source_code_report_Ansh_Attre_IIT_Mandi.ipynb # Detailed development log & primary execution walkthrough
 ├── scripts/
 │   └── create_chromadb.py      # Script to initialize ChromaDB (uses knowledge_base/)
 ├── prototype_demo_photo_video/ # [Your Demo files]
