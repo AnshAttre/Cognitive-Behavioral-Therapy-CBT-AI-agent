@@ -48,17 +48,10 @@ User input from the Gradio UI is first processed by the `UltimateGenerationEngin
 
 This project was primarily developed and tested in a Google Colab environment. To replicate the development environment and run the code, it is highly recommended to use Google Colab.
 
-### 4.1. Clone the Repository
-
-You can clone this repository directly within Google Colab.
-
-```bash
-git clone (https://github.com/AnshAttre/Cognitive-Behavioral-Therapy-CBT-AI-agent/edit/main/code_report_Ansh_Attre_IIT_Mandi.ipynb)]
-
-```
 
 
-### 4.2. Open and Run the Main Notebook
+
+### 4.1. Open and Run the Main Notebook
 
 The primary executable code and development walkthrough are contained within the `notebooks/code_report_Ansh_Attre_IIT_Mandi.ipynb` file.
 
@@ -68,18 +61,18 @@ The primary executable code and development walkthrough are contained within the
 
 *(**Note:** The `app.py` file is included to demonstrate how the modular components, if fully extracted into `.py` files, would be orchestrated. However, for direct execution and the full development context, the Colab notebook is the intended entry point.)*
 
-### 4.3. Dependencies (Managed by Notebook)
+### 4.2. Dependencies (Managed by Notebook)
 
 The notebook handles the installation of all necessary Python dependencies (e.g., `torch`, `transformers`, `peft`, `bitsandbytes`, `accelerate`, `chromadb`, `sentence-transformers`, `scikit-learn`, `nltk`, `gradio`, `pandas`, `matplotlib`). The `requirements.txt` file is provided for reference or for setting up a local environment if preferred.
 
-### 4.4. Prepare the CBT Knowledge Base (Managed by Notebook)
+### 4.3. Prepare the CBT Knowledge Base (Managed by Notebook)
 
 The notebook typically includes steps to prepare the RAG knowledge base.
 
 1.  Ensure your CBT-related text documents are in the `knowledge_base/` folder.
 2.  The notebook will guide you through initializing ChromaDB using these documents.
 
-### 4.5. Fine-Tune the `microsoft/phi-2` Model (Managed by Notebook)
+### 4.4. Fine-Tune the `microsoft/phi-2` Model (Managed by Notebook)
 
 The `notebooks/code_report_Ansh_Attre_IIT_Mandi.ipynb` file also contains the detailed walkthrough and code for the QLoRA fine-tuning process of the `microsoft/phi-2` model.
 
