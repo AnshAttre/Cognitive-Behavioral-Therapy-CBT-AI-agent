@@ -53,9 +53,10 @@ This project was primarily developed and tested in a Google Colab environment. T
 
 The primary executable code and development walkthrough are contained within the `source_code_report_Ansh_Attre_IIT_Mandi.ipynb` file.
 
-1.  **Upload to Colab:** Open Google Colab and upload/open the `source_code_report_Ansh_Attre_IIT_Mandi.ipynb` 
-2.  **Select GPU Runtime:** Ensure you are using a GPU runtime for efficient model loading and inference (Runtime -> Change runtime type -> Hardware accelerator: GPU).
-3.  **Run Cells Sequentially:** Execute all cells in the notebook sequentially. This will handle dependency installation, data preparation, model loading, and eventually launch the Gradio UI.
+1.  **Upload to Colab:** Open Google Colab and upload/open the `source_code_report_Ansh_Attre_IIT_Mandi.ipynb`
+2.  Add rag_chroma_db and cbt_500.jsonl to your google drive
+3.  **Select GPU Runtime:** Ensure you are using a GPU runtime for efficient model loading and inference (Runtime -> Change runtime type -> Hardware accelerator: GPU).
+4.  **Run Cells Sequentially:** Execute all cells in the notebook sequentially. This will handle dependency installation, data preparation, model loading, and eventually launch the Gradio UI.
 
 *(**Note:** The `app.py` file is included to demonstrate how the modular components, if fully extracted into `.py` files, would be orchestrated. However, for direct execution and the full development context, the Colab notebook is the intended entry point.)*
 
